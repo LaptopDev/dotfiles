@@ -1,0 +1,12 @@
+/bin/sh
+dmenu_run
+kitty
+flameshot
+ddcutil
+awk
+pidof
+pactl
+playerctl
+xsel
+sox
+aplay
