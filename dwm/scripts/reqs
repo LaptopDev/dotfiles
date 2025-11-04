@@ -1,6 +1,7 @@
 /bin/sh
 dmenu_run
 kitty
+deadd-notification-center-bin
 flameshot
 ddcutil
 awk
