@@ -1,3 +1,5 @@
+Vibe coded all components. use at your own risk. Seems to work
+
 To run this script effectively, you need a **Linux** environment running the **X11 (X.Org)** windowing system. Because the script relies on specific X11-only tools like xinput and x11grab, it will not function correctly on a pure Wayland session without an Xwayland compatibility layer (and even then, global key/mouse grabbing may fail).
 
 ### **1\. Operating System & Display Server**
@@ -46,5 +48,3 @@ The script is hardcoded to use **NVENC** (hevc\_nvenc) for primary recording.
 
 * **If you have an NVIDIA GPU:** Ensure the nvidia-utils and latest drivers are installed.  
 * **If you have AMD/Intel:** You will need to change \-c:v hevc\_nvenc to \-c:v libx264 or \-c:v h264\_vaapi in the recording section of the script.
-
-Would you like me to help you modify the script to work with Intel/AMD (VAAPI) instead of NVIDIA?
