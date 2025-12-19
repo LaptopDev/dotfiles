@@ -1,8 +1,0 @@
-# Stop screencap recording
-"rm -f /tmp/screencap.running"
-  Control+Alt+Shift+Escape
-
-
-# Start screencap
-"~/scripts/record_region2.sh"
-  Control+Alt+Shift+F12
